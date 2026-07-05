@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# This wedding website is public but not intended for search indexing.

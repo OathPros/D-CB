@@ -1,0 +1,4 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'; import PageHero from '../components/PageHero.astro'; import ScheduleTimeline from '../components/ScheduleTimeline.astro'; import schedule from '../content/schedule.json';
+---
+<BaseLayout title="Schedule | Daniel & Colleen"><PageHero eyebrow="Wedding day" title="Schedule" intro="A first look at the celebration timeline. Details may be refined as the date gets closer." /><section class="section"><div class="container"><ScheduleTimeline items={schedule} /></div></section></BaseLayout>

@@ -1,0 +1,4 @@
+---
+const { href = '#', variant = '', disabled = false } = Astro.props;
+---
+<a class:list={['button', variant, { disabled }]} href={disabled ? undefined : href} aria-disabled={disabled ? 'true' : undefined}><slot /></a>

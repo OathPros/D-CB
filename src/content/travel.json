@@ -1,0 +1,12 @@
+{
+  "intro": "Strathmere is located just outside Ottawa in North Gower. It’s a beautiful countryside venue, but because it’s outside the city centre, guests should plan transportation in advance.",
+  "noShuttle": "There will not be a shuttle, and rideshare availability may be limited late at night.",
+  "sections": [
+    { "title": "Venue address", "body": "Strathmere, 1980 Phelan Road West, North Gower, ON K0A 2T0." },
+    { "title": "Driving note", "body": "Please give yourself extra time to arrive, settle in, and be seated before the 4:00 PM ceremony." },
+    { "title": "Parking", "body": "Parking will be available at Strathmere. More detailed arrival instructions will be added closer to the wedding date." },
+    { "title": "Hotel blocks", "body": "Hotel block information is coming soon." },
+    { "title": "Ottawa-area stays", "body": "Guests may prefer to stay in Ottawa, Barrhaven, Kanata, or nearby communities depending on their travel plans." },
+    { "title": "Plan transportation early", "body": "Because Strathmere is outside the city centre and there is no shuttle, please plan a safe ride in advance." }
+  ]
+}

@@ -1,0 +1,4 @@
+---
+const { items } = Astro.props;
+---
+<div class="photo-grid">{items.map((item) => <figure class="photo-card"><figcaption><strong>{item.caption}</strong><br /><span>{item.alt}</span></figcaption></figure>)}</div>

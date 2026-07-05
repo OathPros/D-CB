@@ -1,0 +1,18 @@
+:root {
+  --cranberry: #8A1538;
+  --cranberry-dark: #5A0D25;
+  --cranberry-soft: #B23A5B;
+  --emerald: #013D2B;
+  --emerald-soft: #0E5942;
+  --blush: #F1C4C0;
+  --medium-pink: #D86F8D;
+  --chocolate: #3A2418;
+  --chocolate-soft: #6B4735;
+  --cream: #FFF2DF;
+  --warm-white: #FFF9F1;
+  --autumn-orange: #C96E2C;
+  --text: #281814;
+  --muted-text: #745C52;
+  --border-soft: rgba(58, 36, 24, 0.18);
+  --shadow: 0 24px 70px rgba(58, 36, 24, 0.14);
+}

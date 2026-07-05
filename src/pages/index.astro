@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import HeroSlideshow from '../components/HeroSlideshow.astro';
+import Button from '../components/Button.astro';
+import site from '../content/site.json';
+import schedule from '../content/schedule.json';
+---
+<BaseLayout title="Daniel & Colleen Blanchard | September 11, 2027">
+  <HeroSlideshow images={site.slideshowImages} />
+  <section class="section"><div class="container grid" style="max-width:850px"><p class="eyebrow">Welcome</p><h2>We can’t wait to celebrate with you.</h2><p>On September 11, 2027, we’ll gather at Strathmere, just outside Ottawa in North Gower, for an evening of food, music, dancing, and the people we love most.</p><p>This site will be updated as the day gets closer, but you’ll find the key details here: where to go, when to arrive, what to wear, where to stay, and what to expect.</p></div></section>
+  <section class="section dark"><div class="container"><p class="eyebrow">The essentials</p><div class="grid grid-3"><div><h3>Date</h3><p>{site.date}</p></div><div><h3>Ceremony</h3><p>{site.ceremonyTime}, outdoors weather permitting.</p></div><div><h3>Venue</h3><p>{site.venue}<br />{site.location}</p></div><div><h3>Dress code</h3><p>{site.dressCode}</p></div><div><h3>Adults-only</h3><p>An adults-only celebration.</p></div><div><h3>Reception</h3><p>Plated dinner, open bar, late-night food, and dancing.</p></div></div></div></section>
+  <section class="section"><div class="container grid grid-3"><article class="card blush"><p class="eyebrow">A note to our guests</p><h3>Warm, relaxed, and intentional.</h3><p>Think cranberry velvet, candlelight, dark greenery, polished wood, old stone, blush florals, and late-summer warmth.</p></article><article class="card"><p class="eyebrow">Schedule preview</p><h3>{schedule[0].time} · {schedule[0].title}</h3><p>{schedule[0].description}</p><Button href="/schedule">Full schedule</Button></article><article class="card"><p class="eyebrow">Travel reminder</p><h3>Please plan ahead.</h3><p>There will not be a shuttle, and rideshare availability may be limited late at night.</p><Button href="/travel">Travel & Stay</Button></article></div></section>
+</BaseLayout>
