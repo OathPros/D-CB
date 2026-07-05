@@ -1,13 +1,15 @@
 ---
+import { withBase, withoutBase } from '../utils/paths';
+
 const nav = [ ['/', 'Home'], ['/schedule','Schedule'], ['/rsvp','RSVP'], ['/faq','FAQ'], ['/travel','Travel'], ['/venue','Venue'], ['/story','Story'], ['/party','Party'], ['/gifts','Gifts'], ['/ottawa','Ottawa'], ['/gallery','Gallery'] ];
-const current = Astro.url.pathname.replace(/\/$/, '') || '/';
+const current = (withoutBase(Astro.url.pathname).replace(/\/$/, '') || '/');
 ---
 <header class="site-header">
   <nav class="nav container" aria-label="Primary navigation">
-    <a class="brand" href="/">Daniel & Colleen</a>
+    <a class="brand" href={withBase('/')}>Daniel & Colleen</a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="primary-menu">Menu</button>
     <div class="nav-links" id="primary-menu">
-      {nav.map(([href,label]) => <a href={href} aria-current={(current === href || (href !== '/' && current === href)) ? 'page' : undefined}>{label}</a>)}
+      {nav.map(([href,label]) => <a href={withBase(href)} aria-current={current === href ? 'page' : undefined}>{label}</a>)}
     </div>
   </nav>
 </header>
