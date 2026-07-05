@@ -1,0 +1,4 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'; import PageHero from '../components/PageHero.astro'; import PhotoGrid from '../components/PhotoGrid.astro'; import gallery from '../content/gallery.json';
+---
+<BaseLayout title="Gallery | Daniel & Colleen"><PageHero eyebrow="Gallery" title="Photo gallery" intro="A simple gallery is ready for photos as they’re added." /><section class="section"><div class="container"><PhotoGrid items={gallery} /></div></section></BaseLayout>

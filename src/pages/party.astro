@@ -1,0 +1,4 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'; import PageHero from '../components/PageHero.astro'; import party from '../content/party.json';
+---
+<BaseLayout title="Wedding Party | Daniel & Colleen"><PageHero eyebrow="Wedding Party" title="The people standing with us" intro="Names, roles, photos, and stories will be added as plans are finalized." /><section class="section"><div class="container grid grid-3">{party.map((p) => <article class="card"><h3>{p.name}</h3><p class="eyebrow">{p.role}</p><p>{p.bio}</p></article>)}</div></section></BaseLayout>

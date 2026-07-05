@@ -1,0 +1,25 @@
+{
+  "couple": "Daniel & Colleen Blanchard",
+  "formalCouple": "Daniel and Colleen Blanchard",
+  "date": "September 11, 2027",
+  "venue": "Strathmere",
+  "address": "1980 Phelan Road West, North Gower, ON K0A 2T0",
+  "location": "Just outside Ottawa in North Gower, Ontario",
+  "ceremonyTime": "4:00 PM",
+  "dressCode": "Formal",
+  "contact": "Wedding contact details will be added closer to the date.",
+  "slideshowImages": [
+    { "src": "/images/slideshow/01.jpg", "alt": "Autumn wedding inspiration at a countryside estate" },
+    { "src": "/images/slideshow/02.jpg", "alt": "Candlelit table setting with cranberry and blush details" },
+    { "src": "/images/slideshow/03.jpg", "alt": "Dark greenery and polished wood wedding atmosphere" },
+    { "src": "/images/slideshow/04.jpg", "alt": "Country estate grounds in late summer light" },
+    { "src": "/images/slideshow/05.jpg", "alt": "Blush florals with cranberry accents" },
+    { "src": "/images/slideshow/06.jpg", "alt": "Old stone and warm candlelight" },
+    { "src": "/images/slideshow/07.jpg", "alt": "Elegant autumn wedding reception detail" },
+    { "src": "/images/slideshow/08.jpg", "alt": "Emerald greenery and romantic floral arrangement" },
+    { "src": "/images/slideshow/09.jpg", "alt": "Countryside wedding ceremony setting" },
+    { "src": "/images/slideshow/10.jpg", "alt": "Cranberry velvet and warm white wedding detail" },
+    { "src": "/images/slideshow/11.jpg", "alt": "Refined rustic wedding table with chocolate wood tones" },
+    { "src": "/images/slideshow/12.jpg", "alt": "Late summer evening wedding celebration" }
+  ]
+}

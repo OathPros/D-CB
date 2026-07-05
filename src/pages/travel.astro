@@ -1,0 +1,4 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'; import PageHero from '../components/PageHero.astro'; import travel from '../content/travel.json';
+---
+<BaseLayout title="Travel & Stay | Daniel & Colleen"><PageHero eyebrow="Travel & Stay" title="Plan your trip to Strathmere" intro={travel.intro} /><section class="section"><div class="container"><div class="card blush"><h3>Important transportation note</h3><p>{travel.noShuttle}</p></div><div class="grid grid-3" style="margin-top:1.25rem">{travel.sections.map((section) => <article class="card"><h3>{section.title}</h3><p>{section.body}</p></article>)}</div></div></section></BaseLayout>

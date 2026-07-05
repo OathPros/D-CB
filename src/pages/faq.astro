@@ -1,0 +1,4 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'; import PageHero from '../components/PageHero.astro'; import FAQAccordion from '../components/FAQAccordion.astro'; import faq from '../content/faq.json';
+---
+<BaseLayout title="FAQ | Daniel & Colleen"><PageHero eyebrow="Guest details" title="FAQ" intro="Warm, practical answers for planning your day with confidence." /><section class="section"><div class="container"><FAQAccordion items={faq} /></div></section></BaseLayout>

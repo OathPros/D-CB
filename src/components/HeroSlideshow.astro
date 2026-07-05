@@ -1,0 +1,16 @@
+---
+import Button from './Button.astro';
+const { images } = Astro.props;
+---
+<section class="hero" aria-label="Wedding introduction">
+  <div class="slides" aria-hidden="true">{images.map((image, index) => <div class="slide" style={`--i:${index}; background-image: linear-gradient(rgba(58,36,24,.45), rgba(90,13,37,.48)), url('${image.src}')`}></div>)}</div>
+  <div class="hero-content container">
+    <p class="eyebrow">September 11, 2027 · Strathmere</p>
+    <h1>Daniel & Colleen Blanchard</h1>
+    <p class="hero-location">Just outside Ottawa in North Gower, Ontario</p>
+    <div class="hero-actions"><Button href="/rsvp">RSVP</Button><Button href="/schedule" variant="secondary">View the Schedule</Button><Button href="/travel" variant="secondary">Travel & Stay</Button><Button href="/faq" variant="secondary">FAQ</Button></div>
+  </div>
+</section>
+<style>
+.hero{min-height:calc(100vh - 72px);position:relative;display:grid;align-items:center;overflow:hidden;background:var(--cranberry-dark);color:var(--warm-white)}.slides,.slide{position:absolute;inset:0}.slide{background-size:cover;background-position:center;opacity:0;animation:fade 72s infinite}.slide:nth-child(1){opacity:1}.slide{animation-delay:calc(var(--i) * 6s)}.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 28% 35%,rgba(138,21,56,.46),transparent 35%),linear-gradient(90deg,rgba(1,61,43,.58),transparent)}.hero-content{position:relative;z-index:1;padding-block:5rem}.hero h1{color:var(--warm-white);max-width:900px;text-shadow:0 8px 30px rgba(0,0,0,.32)}.hero-location{font-size:clamp(1.2rem,3vw,2rem);max-width:720px}.hero-actions{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:2rem}@keyframes fade{0%,8%{opacity:1}13%,95%{opacity:0}100%{opacity:1}}@media(max-width:700px){.hero{min-height:760px}.slide{background-position:center}.hero-actions .button{width:100%}}@media(prefers-reduced-motion:reduce){.slide{animation:none;opacity:0}.slide:first-child{opacity:1}}
+</style>

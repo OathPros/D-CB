@@ -1,0 +1,14 @@
+[
+  { "category": "RSVP", "question": "When can I RSVP?", "answer": "RSVPs are not open just yet. We’ll update the RSVP page closer to the wedding date with everything you need to confirm your attendance, share dietary restrictions, and send any important notes." },
+  { "category": "Adults-only wedding", "question": "Are kids invited?", "answer": "We love the little people in our lives, but our wedding day will be an adults-only celebration. Thank you for understanding and making arrangements in advance." },
+  { "category": "Plus-ones", "question": "Can I bring a plus-one?", "answer": "Because of venue capacity and planning details, we’re only able to accommodate the guests named on your invitation. Thank you for understanding." },
+  { "category": "Dress code", "question": "What should I wear?", "answer": "Formal attire. The celebration is at a countryside venue, so please keep grass, gravel, and September evening weather in mind when choosing shoes and layers." },
+  { "category": "Ceremony/weather", "question": "Will the ceremony be outdoors?", "answer": "The ceremony is planned outdoors, weather permitting. More detailed arrival and weather notes will be added closer to the day." },
+  { "category": "Food and dietary needs", "question": "Will dietary restrictions be accommodated?", "answer": "Yes. When RSVPs open, there will be a place to share dietary restrictions or allergies so we can pass them along to the venue." },
+  { "category": "Travel and parking", "question": "Will there be parking?", "answer": "Yes, parking will be available at Strathmere. More detailed arrival instructions will be added closer to the wedding date." },
+  { "category": "Uber/taxi/rural location warning", "question": "Can I Uber or taxi from the venue?", "answer": "Strathmere is outside the city, so rideshare and taxi availability may be limited late at night. Please plan your transportation in advance, especially since there will not be a shuttle." },
+  { "category": "Unplugged ceremony", "question": "Is the ceremony unplugged?", "answer": "Yes. We’re asking guests to put phones and cameras away during the ceremony so everyone can be fully present. We’ll happily share professional photos afterward." },
+  { "category": "Bar", "question": "Is there an open bar?", "answer": "Yes, there will be an open bar." },
+  { "category": "Gifts", "question": "Is there a registry?", "answer": "There won’t be a traditional registry. For anyone who would like to give a gift, contributions toward our honeymoon or cards on the day will be warmly appreciated." },
+  { "category": "Day-of contact", "question": "Who should I contact with questions?", "answer": "Wedding contact details will be added closer to the date. For now, please check back here as more details are finalized." }
+]

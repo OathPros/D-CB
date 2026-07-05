@@ -1,0 +1,4 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'; import PageHero from '../components/PageHero.astro'; import site from '../content/site.json';
+---
+<BaseLayout title="Venue | Daniel & Colleen"><PageHero eyebrow="Strathmere" title="A countryside wedding venue just outside Ottawa" intro="Our celebration will take place at Strathmere, a countryside wedding venue just outside Ottawa in North Gower, Ontario." /><section class="section"><div class="container grid grid-3"><article class="card"><h3>Address</h3><p>{site.address}</p></article><article class="card"><h3>Venue spaces</h3><p>Strathmere’s wedding offering includes The Farmhouse, The Lodge, and The Garden House.</p></article><article class="card blush"><h3>More details soon</h3><p>More details about the exact ceremony and reception spaces will be added as plans are finalized.</p></article></div></section></BaseLayout>
