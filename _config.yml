@@ -1,0 +1,12 @@
+# This repository is an Astro application deployed by the GitHub Actions
+# workflow in .github/workflows/deploy.yml. If GitHub Pages is configured to
+# use the legacy branch/Jekyll builder, keep Jekyll from scanning Astro source
+# files whose `---` component fences are not YAML front matter.
+exclude:
+  - src/
+  - node_modules/
+  - dist/
+  - package.json
+  - package-lock.json
+  - astro.config.mjs
+  - tsconfig.json
