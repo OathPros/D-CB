@@ -1,4 +1,7 @@
 ---
+import { withBase } from '../utils/paths';
+
 const { href = '#', variant = '', disabled = false } = Astro.props;
+const resolvedHref = disabled ? undefined : withBase(href);
 ---
-<a class:list={['button', variant, { disabled }]} href={disabled ? undefined : href} aria-disabled={disabled ? 'true' : undefined}><slot /></a>
+<a class:list={['button', variant, { disabled }]} href={resolvedHref} aria-disabled={disabled ? 'true' : undefined}><slot /></a>

@@ -1,5 +1,6 @@
 ---
 import Button from './Button.astro';
+import { withBase } from '../utils/paths';
 
 type HeroImage = {
   src: string;
@@ -12,7 +13,7 @@ interface Props {
 const { images } = Astro.props;
 ---
 <section class="hero" aria-label="Wedding introduction">
-  <div class="slides" aria-hidden="true">{images.map((image, index) => <div class="slide" style={`--i:${index}; background-image: linear-gradient(rgba(58,36,24,.45), rgba(90,13,37,.48)), url('${image.src}')`}></div>)}</div>
+  <div class="slides" aria-hidden="true">{images.map((image, index) => <div class="slide" style={`--i:${index}; background-image: linear-gradient(rgba(58,36,24,.45), rgba(90,13,37,.48)), url('${withBase(image.src)}')`}></div>)}</div>
   <div class="hero-content container">
     <p class="eyebrow">September 11, 2027 · Strathmere</p>
     <h1>Daniel & Colleen Blanchard</h1>
