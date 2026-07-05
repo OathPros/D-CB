@@ -1,5 +1,14 @@
 ---
 import Button from './Button.astro';
+
+type HeroImage = {
+  src: string;
+};
+
+interface Props {
+  images: HeroImage[];
+}
+
 const { images } = Astro.props;
 ---
 <section class="hero" aria-label="Wedding introduction">
